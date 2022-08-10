@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Producer", "ProducerConsumerRabbitMQ\Producer.csproj", "{A7C12CFB-8645-4037-8822-A9285D9A1883}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consumer", "Consumer\Consumer.csproj", "{1BA4DB01-2A49-40D3-BCB4-020CB5116CBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{9886CE58-91A7-46B5-B0B3-6DC68B49A1F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{CDA6C9FF-3323-4CB0-A449-7D14D45B7F70}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Bus", "Infra.Bus", "{5A335061-865D-48EB-B0AC-56E407D86A82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.IoC", "Infra.IoC", "{17E246CD-BB96-4E2B-8854-A2E27291D2C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{D5832584-B063-4924-A0B5-D6B203B6CFC4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Domain.Core", "MicroRabbit.Domain.Core\MicroRabbit.Domain.Core.csproj", "{549CE4A0-906B-4F04-9322-FD252238ABCC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroRabbit.Infra.Bus", "MicroRabbit.Infra.Bus\MicroRabbit.Infra.Bus.csproj", "{6C15B653-E839-4F9A-90B4-9819858A280C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRabbit.Infra.IoC", "MicroRabbit.Infra.IoC\MicroRabbit.Infra.IoC.csproj", "{51BB5E4A-27B6-4E9E-AC8B-553BFD638390}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7C12CFB-8645-4037-8822-A9285D9A1883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C12CFB-8645-4037-8822-A9285D9A1883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C12CFB-8645-4037-8822-A9285D9A1883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C12CFB-8645-4037-8822-A9285D9A1883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA4DB01-2A49-40D3-BCB4-020CB5116CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA4DB01-2A49-40D3-BCB4-020CB5116CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA4DB01-2A49-40D3-BCB4-020CB5116CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA4DB01-2A49-40D3-BCB4-020CB5116CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549CE4A0-906B-4F04-9322-FD252238ABCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549CE4A0-906B-4F04-9322-FD252238ABCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549CE4A0-906B-4F04-9322-FD252238ABCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549CE4A0-906B-4F04-9322-FD252238ABCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C15B653-E839-4F9A-90B4-9819858A280C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C15B653-E839-4F9A-90B4-9819858A280C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C15B653-E839-4F9A-90B4-9819858A280C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C15B653-E839-4F9A-90B4-9819858A280C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51BB5E4A-27B6-4E9E-AC8B-553BFD638390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51BB5E4A-27B6-4E9E-AC8B-553BFD638390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51BB5E4A-27B6-4E9E-AC8B-553BFD638390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51BB5E4A-27B6-4E9E-AC8B-553BFD638390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{549CE4A0-906B-4F04-9322-FD252238ABCC} = {CDA6C9FF-3323-4CB0-A449-7D14D45B7F70}
+		{6C15B653-E839-4F9A-90B4-9819858A280C} = {5A335061-865D-48EB-B0AC-56E407D86A82}
+		{51BB5E4A-27B6-4E9E-AC8B-553BFD638390} = {17E246CD-BB96-4E2B-8854-A2E27291D2C3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA071E07-DC04-4DA8-BCA3-05ECA47E1BB2}
+	EndGlobalSection
+EndGlobal
