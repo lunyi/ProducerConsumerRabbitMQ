@@ -9,7 +9,7 @@ namespace MicroRabbit.Domain.Core.Events
 
         protected Message()
         {
-            MessageType=GetType().Name;
+            MessageType = GetType().Name;
         }
     }
 }
